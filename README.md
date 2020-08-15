@@ -4,10 +4,18 @@
 
 ## 기본
 
+- Japan: [Deep Learning from Scratch](https://github.com/oreilly-japan/deep-learning-from-scratch)
+- Korea: [밑바닥부터 시작하는 딥러닝](https://github.com/WegraLee/deep-learning-from-scratch)
+
 ### Perceptron
 
 - Code: [perceptron.py](perceptron/perceptron.py)
 - Example: [Notebook](perceptron/example.ipynb)
+
+### Neural Network
+
+- Code: [activation.py](neural-network/activation.py)
+- Example: [Notebook](neural-network/example.ipynb)
 
 ---
 
