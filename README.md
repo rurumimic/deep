@@ -2,6 +2,15 @@
 
 딥러닝
 
+## 기본
+
+### Perceptron
+
+- Code: [perceptron.py](perceptron/perceptron.py)
+- Example: [Notebook](perceptron/example.ipynb)
+
+---
+
 ## 환경 설정
 
 ### Python 3.8
