@@ -22,6 +22,11 @@
 - Code: [loss.py](neural_network_learn/loss.py), [differentiation.py](neural_network_learn/differentiation.py)
 - Example: [Notebook](neural_network_learn/example.ipynb)
 
+### Backpropagation
+
+- Code: [AddLayer.py](backpropagation/AddLayer.py), [MulLayer.py](backpropagation/MulLayer.py), [Relu.py](backpropagation/Relu.py), [Sigmoid.py](backpropagation/Sigmoid.py), [Affine.py](backpropagation/Affine.py), [SoftmaxWithLoss.py](backpropagation/SoftmaxWithLoss.py)
+- Example: [Notebook](backpropagation/example.ipynb)
+
 ---
 
 ## 환경 설정
