@@ -16,7 +16,7 @@
 **예제 문제**
 | 현빈 군은 슈퍼에서 사과를 2개, 귤을 3개 샀습니다. 사과는 1개에 100원, 귤은 1개 150원입니다. 소비세가 10%일 때 지불 금액을 구하라.
 
-![](./images/backpropagation_1.png)   
+![](images/backpropagation_1.png)   
 
 계산 그래프를 이용한 문제 풀이는 다음 흐름으로 진행됨
 
@@ -34,7 +34,7 @@
 국소적 : 자신과 직접 관계된 작은 범위   
 국소적 계산은 전체에서 어떤 일이 벌어지든 상관없이 `자신과 관계된 정보`만으로 `결과를 출력`할 수 있음   
 
-![](./images/backpropagation_2.png)   
+![](images/backpropagation_2.png)   
 
 계산 그래프의 각 노드에서의 계산은 `국소적`   
 계산 그래프는 `국소적 계산`에 집중   
@@ -51,7 +51,7 @@
 사과의 값을 `x`​, 지불 금액을 ​`L`라 했을 때, ​`dL/dx`를 구하는 것   
 이러한 미분 값은 사과 값(​x)가 '아주 조금'올랐을 때 지불 금액(L​)이 얼마나 증가하는지를 나타냄   
 
-![](./images/backpropagation_3.png)   
+![](images/backpropagation_3.png)   
 
 ---
 
@@ -64,7 +64,7 @@
 **예제 문제**   
 y = f(x)의 역전파 계산   
 
-![](./images/backpropagation_4.png)   
+![](images/backpropagation_4.png)   
 
 역전파 계산 순서는 신호E ​에 노드(f​)의 국소적 미분(dy/dx)​을 곱한 후 엣지(edge)를 통해 다음 노드로 전달하는 것
 국소적 미분은 순전파 때의 ​y = f(x)에 대한 미분을 구하는 것   
@@ -74,11 +74,11 @@ x​에 대한 y​의 미분(dy/dx)을 구한다는 의미
 
 합성함수의 미분은 합성 함수를 구성하는 각 함수의 미분의 곱   
 
-![](./images/backpropagation_5.png)   
+![](images/backpropagation_5.png)   
 
 계산그래프로는 다음과 같다
 
-![](./images/backpropagation_6.png)   
+![](images/backpropagation_6.png)   
 
 역전파의 계산 절차
 1. 노드로 들어온 입력 신호에 그 노드의 국소적 미분(편미분)을 곱
@@ -92,13 +92,13 @@ x​에 대한 y​의 미분(dy/dx)을 구한다는 의미
 
 입력값을 그대로 흘려보냄`(gradient distributor)`
 
-![](./images/backpropagation_7.png)   
+![](images/backpropagation_7.png)   
 
 ### 곱셈 노드의 역전파
 
 입력값의 위치를 서로 바꾼 다음 곱해서 흘려보냄`(gradient switcher)`
 
-![](./images/backpropagation_8.png)   
+![](images/backpropagation_8.png)   
 
 ---
 
@@ -131,7 +131,7 @@ class MulLayer:
 **예제 문제**   
 사과 문제에 대한 단순 계층 구현   
 
-![](./images/backpropagation_9.png)   
+![](images/backpropagation_9.png)   
 
 
 ```python
@@ -184,7 +184,7 @@ class AddLayer:
 **예제 문제**   
 사과, 오렌지 문제에 대한 단순 계층 구현   
 
-![](./images/backpropagation_10.png)   
+![](images/backpropagation_10.png)   
 
 ```python
 apple = 100
@@ -220,8 +220,8 @@ print("%.1f, %d, %d" % (dapple, dapple_num, dtax))
 
 ### ReLU 계층
 
-![](./images/backpropagation_11.png)   
-![](./images/backpropagation_12.png)   
+![](images/backpropagation_11.png)   
+![](images/backpropagation_12.png)   
 
 ```python
 class Relu:
@@ -274,9 +274,9 @@ mask:
 
 ### Sigmoid 계층
 
-![](./images/backpropagation_13-1.png)   
-![](./images/backpropagation_13-2.png)   
-![](./images/backpropagation_13.png)   
+![](images/backpropagation_13-1.png)   
+![](images/backpropagation_13-2.png)   
+![](images/backpropagation_13.png)   
 
 ```python
 class Sigmoid:
@@ -307,11 +307,11 @@ Affine transformation : 순전파 때 수행하는 행렬의 곱
 
 #### 단일 데이터용
 
-![](./images/backpropagation_14.png)   
+![](images/backpropagation_14.png)   
 
 #### 배치용
 
-![](./images/backpropagation_15.png)   
+![](images/backpropagation_15.png)   
 
 ```python
 class Affine:
@@ -346,11 +346,11 @@ Softmax 계층 앞의 Affine 계층의 출력을 점수(score)
 딥러닝의 추론에서는 답을 하나만 예측하는 경우에는 가장 높은 점수만 알면 되므로 Softmax 계층이 필요   
 딥러닝을 학습할 때는 Softmax 계층이 필요   
 
-![](./images/backpropagation_16.png)   
+![](images/backpropagation_16.png)   
 
 Softmax 계층을 구현할 때, 손실함수인 교차 엔트로피 오차(cross entropy error)도 포함하여 계층 구현
 
-![](./images/backpropagation_17.png)   
+![](images/backpropagation_17.png)   
 
 ```python
 class SoftmaxWithLoss:
