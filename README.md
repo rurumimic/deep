@@ -19,8 +19,9 @@
 
 ### Backpropagation
 
-- Code: [activation.py](neural-network/activation.py)
-- Example: [Notebook](neural-network/example.ipynb)
+- Content: [Backpropagation](backpropagation/backpropagation.md)
+- Code: [backpropagation.py](backpropagation/backpropagation.py)
+- Example(Working in Progress): [Notebook](backpropagation/example.ipynb)
 
 ---
 

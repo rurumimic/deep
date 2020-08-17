@@ -9,7 +9,7 @@
 신호도 흐름을 만들고 정보를 앞으로 전달   
 퍼셉트론의 결과 값 : `1(신호 흐름) or 0(신호 흐르지 않음)`   
 
-![](images/percepron_1.png)
+![](./images/percepron_1.png)
 
 **입력이 2개인 Perceptron**
 
@@ -36,7 +36,7 @@ W1, W2 :  가중치
 입력이 둘이고 출력은 하나   
 두 입력이 모두 1일 때만 1을 출력, 나머지는 0 출력   
 
-![](images/percepron_2.png)
+![](./images/percepron_2.png)
 
 퍼셉트론(W1, W2, THETA) : (0.5, 0.5, 0.7), (0.5, 0.5, 0.8), (1.0, 1.0, 1.0)   
 
@@ -58,7 +58,7 @@ NAND : Not AND
 AND의 출력을 뒤집은 것   
 모두 1일때만 0, 나머지는 0 출력   
 
-![](images/percepron_3.png)
+![](./images/percepron_3.png)
 
 퍼셉트론(W1, W2, THETA) : (-0.5, -0.5, -0.7)   
 
@@ -78,7 +78,7 @@ def NAND(x1, x2):
 
 입력 신호 중 하나 이상이 1이면 출력이 1이 되는 논리 회로
 
-![](images/percepron_4.png)
+![](./images/percepron_4.png)
 
 퍼셉트론(W1, W2, THETA) : (0.5, 0.5, -0.2)   
 
@@ -102,15 +102,15 @@ def OR(x1, x2):
 
 XOR : 배타적 논리합   
 
-![](images/percepron_5.png)
+![](./images/percepron_5.png)
 
 퍼셉트론(W1, W2, THETA) : (-0.5, 1.0, 1.0)   
 
-![](images/percepron_6.png)   
+![](./images/percepron_6.png)   
 
 시각화로 표현 시, `선형`으로는 두 영역으로 나눌 수 없음   
 
-![](images/percepron_7.png)   
+![](./images/percepron_7.png)   
 
 이러한 `비선형 그래프`로 구분 가능
 
@@ -122,11 +122,11 @@ XOR : 배타적 논리합
 
 ### 기존 Gate 조합으로 NAND 만들기
 
-![](images/percepron_8.png)   
+![](./images/percepron_8.png)   
 
 기호와 진리표로 표시하면 다음과 같다   
 
-![](images/percepron_9.png)   
+![](./images/percepron_9.png)   
 
 ```python
 def XOR(x1, x2):
