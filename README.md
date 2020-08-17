@@ -14,8 +14,13 @@
 
 ### Neural Network
 
-- Code: [activation.py](neural-network/activation.py)
-- Example: [Notebook](neural-network/example.ipynb)
+- Code: [activation.py](neural_network/activation.py)
+- Example: [Notebook](neural_network/example.ipynb)
+
+### Neural Network Learn
+
+- Code: [loss.py](neural_network_learn/loss.py), [differentiation.py](neural_network_learn/differentiation.py)
+- Example: [Notebook](neural_network_learn/example.ipynb)
 
 ---
 
