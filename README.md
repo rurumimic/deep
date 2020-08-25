@@ -10,7 +10,6 @@
 - Code: [perceptron.py](perceptron/perceptron.py)
 - Example: [Notebook](perceptron/example.ipynb)
 
-
 ### Neural Network
 
 - Code: [activation.py](neural_network/activation.py)
@@ -26,12 +25,13 @@
 - Code: [AddLayer.py](backpropagation/AddLayer.py), [MulLayer.py](backpropagation/MulLayer.py), [Relu.py](backpropagation/Relu.py), [Sigmoid.py](backpropagation/Sigmoid.py), [Affine.py](backpropagation/Affine.py), [SoftmaxWithLoss.py](backpropagation/SoftmaxWithLoss.py)
 - Example: [Notebook](backpropagation/example.ipynb)
 
-
-### Backpropagation
-
 - Content: [Backpropagation](backpropagation/backpropagation.md)
 - Code: [backpropagation.py](backpropagation/backpropagation.py)
-- Example(Working in Progress): [Notebook](backpropagation/example.ipynb)
+
+### Deep Learning
+
+- Content: [Deep Learning](deep_learning/README.md)
+- Example: [Notebook](deep_learning/example.ipynb)
 
 ---
 
@@ -63,10 +63,11 @@ jupyter lab
 
 - Japan: [Deep Learning from Scratch](https://github.com/oreilly-japan/deep-learning-from-scratch)
 - Korea: [밑바닥부터 시작하는 딥러닝](https://github.com/WegraLee/deep-learning-from-scratch)
-- Blog: 
+- Blog:
+
   - [밑바닥부터 시작하는 딥러닝 정리 - 1](https://velog.io/@dscwinterstudy/series/%EB%B0%91%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D)
   - [밑바닥부터 시작하는 딥러닝 정리 - 2](https://excelsior-cjh.tistory.com/169)
-  
+
 ### 강의
 
 Stanford: [CS231N](http://cs231n.stanford.edu/)
