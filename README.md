@@ -6,31 +6,31 @@ Summary of the 'Deep Learning from Scratch' series
 
 ### Perceptron
 
-- Content: [Perceptron](perceptron/perceptron.md)
-- Code: [perceptron.py](perceptron/perceptron.py)
-- Example: [Notebook](perceptron/example.ipynb)
+- Content: [Perceptron](book_1/perceptron/perceptron.md)
+- Code: [perceptron.py](book_1/perceptron/perceptron.py)
+- Example: [Notebook](book_1/perceptron/example.ipynb)
 
 ### Neural Network
 
-- Code: [activation.py](neural_network/activation.py)
-- Example: [Notebook](neural_network/example.ipynb)
+- Code: [activation.py](book_1/neural_network/activation.py)
+- Example: [Notebook](book_1/neural_network/example.ipynb)
 
 ### Neural Network Learn
 
-- Code: [loss.py](neural_network_learn/loss.py), [differentiation.py](neural_network_learn/differentiation.py)
-- Example: [Notebook](neural_network_learn/example.ipynb)
+- Code: [loss.py](book_1/neural_network_learn/loss.py), [differentiation.py](book_1/neural_network_learn/differentiation.py)
+- Example: [Notebook](book_1/neural_network_learn/example.ipynb)
 
 ### Backpropagation
 
-- Code: [AddLayer.py](backpropagation/AddLayer.py), [MulLayer.py](backpropagation/MulLayer.py), [Relu.py](backpropagation/Relu.py), [Sigmoid.py](backpropagation/Sigmoid.py), [Affine.py](backpropagation/Affine.py), [SoftmaxWithLoss.py](backpropagation/SoftmaxWithLoss.py)
-- Example: [Notebook](backpropagation/example.ipynb)
-- Content: [Backpropagation](backpropagation/backpropagation.md)
-- Code: [backpropagation.py](backpropagation/backpropagation.py)
+- Code: [AddLayer.py](book_1/backpropagation/AddLayer.py), [MulLayer.py](book_1/backpropagation/MulLayer.py), [Relu.py](book_1/backpropagation/Relu.py), [Sigmoid.py](book_1/backpropagation/Sigmoid.py), [Affine.py](book_1/backpropagation/Affine.py), [SoftmaxWithLoss.py](book_1/backpropagation/SoftmaxWithLoss.py)
+- Example: [Notebook](book_1/backpropagation/example.ipynb)
+- Content: [Backpropagation](book_1/backpropagation/backpropagation.md)
+- Code: [backpropagation.py](book_1/backpropagation/backpropagation.py)
 
 ### Deep Learning
 
-- Content: [Deep Learning](deep_learning/README.md)
-- Example: [Notebook](deep_learning/example.ipynb)
+- Content: [Deep Learning](book_1/deep_learning/README.md)
+- Example: [Notebook](book_1/deep_learning/example.ipynb)
 
 ---
 
@@ -55,3 +55,4 @@ jupyter lab
 ### Lectures
 
 - Stanford: [CS231N](http://cs231n.stanford.edu/)
+
