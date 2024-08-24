@@ -4,30 +4,32 @@ Summary of the 'Deep Learning from Scratch' series
 
 ## Contents
 
-### Perceptron
+### Book 1
+
+#### Perceptron
 
 - Content: [Perceptron](book_1/perceptron/perceptron.md)
 - Code: [perceptron.py](book_1/perceptron/perceptron.py)
 - Example: [Notebook](book_1/perceptron/example.ipynb)
 
-### Neural Network
+#### Neural Network
 
 - Code: [activation.py](book_1/neural_network/activation.py)
 - Example: [Notebook](book_1/neural_network/example.ipynb)
 
-### Neural Network Learn
+#### Neural Network Learn
 
 - Code: [loss.py](book_1/neural_network_learn/loss.py), [differentiation.py](book_1/neural_network_learn/differentiation.py)
 - Example: [Notebook](book_1/neural_network_learn/example.ipynb)
 
-### Backpropagation
+#### Backpropagation
 
 - Code: [AddLayer.py](book_1/backpropagation/AddLayer.py), [MulLayer.py](book_1/backpropagation/MulLayer.py), [Relu.py](book_1/backpropagation/Relu.py), [Sigmoid.py](book_1/backpropagation/Sigmoid.py), [Affine.py](book_1/backpropagation/Affine.py), [SoftmaxWithLoss.py](book_1/backpropagation/SoftmaxWithLoss.py)
 - Example: [Notebook](book_1/backpropagation/example.ipynb)
 - Content: [Backpropagation](book_1/backpropagation/backpropagation.md)
 - Code: [backpropagation.py](book_1/backpropagation/backpropagation.py)
 
-### Deep Learning
+#### Deep Learning
 
 - Content: [Deep Learning](book_1/deep_learning/README.md)
 - Example: [Notebook](book_1/deep_learning/example.ipynb)
